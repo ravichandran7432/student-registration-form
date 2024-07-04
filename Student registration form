@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body style="background-color:lightblue">
+  <h1 style="text-align:center">Student Registration form</h1>
+  <forms>
+  <div class="forms" style="text-align:center">
+  <label for="fname">First Name :</label><br>
+  <input type="text" id="fname" name="fname" required></input><br><br>  
+  <label for="lname">Last Name :</label><br>
+  <input type="text" id="lname" name="lname" required></input><br><br>
+  <label for="Roll No">Roll No:</label><br>
+  <input type="text" id="Roll No" name="Roll No" required></input><br><br>
+  <label for="dept">Department:</label><br>
+  <input type="text" id="dept" name="dept" required></input><br><br>
+  <label for="10th">10th Marks:</label><br>
+  <input type="text" id="10th" name="10th" required></input><br><br>
+  <label for="12th">12th Marks:</label><br>
+  <input type="text" id="12th" name="12th" required></input><br><br>
+  <label for="UG">UG Percentage:</label><br>
+  <input type="text" id="UG" name="UG" required></input><br><br>
+  <button style="margin-left">Submit</button> <button>Cancel</button>
+  </div>
+</forms>
+
+</body>
+
+</html>
